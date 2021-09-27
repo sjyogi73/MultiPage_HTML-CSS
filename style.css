@@ -1,0 +1,295 @@
+body{
+ 
+  font-family: 15px Arial, Helvetica, sans-serif ;
+  padding: 0%;
+  margin: 0%;
+  background-color: bisque;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+/*header*/
+
+
+
+header ul{
+  margin: 0%;
+  padding: 0%;
+  
+}
+header {
+  background-color: #4d2f35;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  min-height: 40px;
+  border-bottom: 4px rgb(225, 250, 5) solid;
+
+}
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header .high,header .home a{
+  color: rgb(241, 193, 33);
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header #brand{
+  float: left;
+  font-size: 12px;
+}
+header #brand h1{
+  margin: 0%;
+  font-size: 35px;
+}
+header #navbar{
+  float: right;
+  margin:10px;
+}
+header a.hover{
+  color: yellow;
+  font-weight: bold;
+}
+
+
+
+/*showcase*/
+
+
+
+#showcase{
+  min-height: 400px;
+  width: 100%;
+  background: url(./img/bad.jpg) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  color:white;
+}
+
+#showcase{
+  margin-top: 5px;
+  font-size: 25px;
+  margin-bottom: 3px;
+}
+
+
+
+
+/*newsletter*/
+
+
+
+
+#newsletter{
+  padding: 15px;
+  color: white;
+  background-color: #4d2f35;
+}
+#newsletter h1{
+  float: left;
+  margin-top: 5px;
+}
+#newsletter form{
+  float: right;
+}
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+.button_1{
+  height: 38px;
+  background-color: rgb(235, 20, 13);
+  border: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: azure;
+
+}
+.button_2{
+  height: 20px;
+  background-color: rgb(235, 20, 13);
+  border: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: azure;
+
+}
+
+
+/*about*/
+
+#newslettertle{
+  margin-left: 0px;
+}
+
+/*boex*/
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+
+}
+#boxes .box img{
+  width: 120px;
+}
+
+/*sidebar*/
+aside #sidebar{
+  float: right;
+  width: 30px;
+  padding-top: 10px;
+}
+
+
+/*artical*/
+article #main-col{
+  float: right;
+  width: 65px;
+
+}
+.dark{
+  padding: 15px;
+  background-color: black;
+  color: antiquewhite;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+aside#sidebar .quote input aside#sidebar .quote textarea{
+  width: 90%;
+  padding: 5px;
+}
+
+.form2 input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+
+}
+.button_4{
+  height: 30px;
+  background-color: rgb(230, 42, 18);
+  border: 0px;
+  color: rgb(2, 7, 7);
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+ 
+/*services*/
+
+
+
+ul#services{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #cccccc;
+}
+.form input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+.form input[type=text], select, textarea {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+.form textarea{
+  padding: 4px;
+  height: 50px;
+  width: 250px;
+
+}
+.button_3{
+  height: 30px;
+  background-color: rgb(146, 228, 253);
+  border: 0px;
+  color: rgb(2, 7, 7);
+  display: flex;
+  align-items: center;
+  size: 30px;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: flex;
+}
+
+
+
+
+/*Footer*/
+
+
+
+
+footer {
+  margin-top: 10px;
+  background-color: #fadede;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+  margin-right: 25px;
+  margin-top: 10px;
+
+}
+footer > ul > li a{
+  text-decoration: none;
+  color: black;
+  
+}
+footer p{
+text-align: left;
+
+
+}
+@media(max-width:700px){
+  header #branding,
+  header nav,
+  header nav li
+  #newsletter h1,
+  #newsletter form
+  #boxes .box,
+  article#main-col,
+  aside#sidebar
+  {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header{
+    padding-bottom: 20px;
+  }
+}
+
+
+
+
+
+
